@@ -693,6 +693,188 @@
 
 
 
+// let arr = [10, 20, 30, 40, 50];
+// let p = [];
+// for(let i=0; i<arr.length; i=i+2){
+//     p.push(arr[i])
+// }
+// // console.log(p);
+// console.log(p.join(" "));
+
+
+// let arr = [-5, 1, 4, 2, 12];
+// let p = [];
+// for(let i=0; i<arr.length; i=i+2){
+//     p.push(arr[i])
+// }
+// console.log(p.join(" "));
+
+
+// function skipvalue(arr){
+//     let p = [];
+//     for(let i=0; i<arr.length; i=i+2){
+//         p.push(arr[i])
+//     }
+//     return p;
+// }
+// const arr = [-5, 1, 4, 2, 12];
+// const p = skipvalue(arr);
+// console.log(p.join(" "));
+
+
+
+// let arr = [4, 2, 9, 7, 5];
+// let target = 3;
+// let found = false;
+
+// for(let i=0; i<arr.length; i++){
+//     if(arr[i]===target){
+//         console.log(i);
+//         found = true;
+//         break
+//     }
+// }
+// if(!found){
+//     console.log("not found");
+// }
+
+
+
+// let arr = [4, 2, 9, 7, 5];
+// let target = 3;
+// let found = false;
+
+// for(let i=0; i<arr.length; i++){
+//     if(arr[i]===target){
+//         found = true;
+//         break;
+//     }
+// }
+// console.log(found);
+
+
+// let arr = [1, 2, 3, 4];
+// let target = 3;
+// let s = arr.length;
+// for(let i=0; i<s; i++){
+//     if(arr[i]===target){
+//         s = i;
+//         break;
+//     }
+// }
+// console.log(s);
+
+
+// let arr = [10 , 20 , 4];
+// let max = arr[0];
+
+// for(let i = 0; i<arr.length; i++){
+//     if(arr[i]>max){
+//         max=arr[i]
+//     }
+// }
+// console.log(max);
+
+
+// let arr = [10 , 20 , 4];
+// console.log(Math.max(...arr));
+
+
+// function findmax(arr){
+//     let max = arr[0];
+
+//     for(let i=0; i<arr.length; i++){
+//         if(arr[i]>max){
+//             max=arr[i]
+//         }
+//     }
+//     return max;
+// }
+// let arr = [10 , 20 , 4];
+// console.log(findmax(arr));
+
+
+
+// let arr = [12, 35, 1, 10, 34, 1];
+// let p = arr.length;
+// let smax = -Infinity;
+
+// for(let i = 0 ; i<p; i++){
+//     if(arr[i]>smax && arr[i]<Math.max(...arr)){
+//         smax = arr[i];
+//     }                   
+// }
+// console.log(smax);
+
+
+
+
+// let  arr = [2, 2, 2, 2, 2];
+// let dubliarr = [];
+
+// for(let i = 0; i<arr.length; i++){
+//     if(!dubliarr.includes(arr[i])){
+//         dubliarr.push(arr[i])
+//     }
+// }
+// console.log(dubliarr);
+
+
+
+
+// let arr = [1 , 2 ,3];
+// let p = arr.length;
+
+// for(let i = 0; i<p; i++){
+//     for(let j =i; j<p; j++){
+//         let subarr = [];
+//         for(let k = i; k<=j; k++){
+//          subarr.push(arr[k]);
+//         }
+//         console.log(subarr);
+//     }
+
+// }
+
+
+
+
+// let arr = [1, 4, 3, 2, 5, 6];
+// arr.reverse();
+// console.log(arr);
+
+
+// let arr = [1, 4, 3, 2, 5, 6];
+// arr.sort((a,b) => b - a);
+// console.log(arr);
+
+
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// let n = arr.length;
+// let temp = [];
+
+// for (let i = n - 1; i >= 0; i--) {
+//     temp.push(arr[i]);
+// }
+// arr = temp; 
+// console.log(arr); 
+
+
+
+// let arr = [1,5,3,4,5,6]
+// let arr = [1,2,3,4,5,6]
+// let sort = true;
+// for(let i=0; i<arr.length-1; i++){
+//     if(arr[i]>arr[i+1]){
+//         sort = false;
+//         break;
+//     }
+// }
+// console.log(sort);
+
+
+
 
 
 
